@@ -575,19 +575,11 @@ video {
   font-weight: 700;
 }
 
+.leading-3 {
+  line-height: .75rem;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\] {
-  color: ;
-}
-
-.text-\[20\] {
-  color: 20;
-}
-
-.text-\[20v\] {
-  color: 20v;
 }
