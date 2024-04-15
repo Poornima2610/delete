@@ -554,12 +554,129 @@ video {
   --tw-contain-style:  ;
 }
 
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mb-\[20vw\] {
+  margin-bottom: 20vw;
+}
+
+.mb-\[3vw\] {
+  margin-bottom: 3vw;
+}
+
+.mt-\[5vw\] {
+  margin-top: 5vw;
+}
+
+.flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-screen {
   height: 100vh;
 }
 
-.w-screen {
-  width: 100vw;
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-\[\.8vw\] {
+  width: .8vw;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[3vw\] {
+  width: 3vw;
+}
+
+.w-\[40vw\] {
+  width: 40vw;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-\[\.2vw\] {
+  gap: .2vw;
+}
+
+.gap-\[1\.2vw\] {
+  gap: 1.2vw;
+}
+
+.gap-\[2\.3vw\] {
+  gap: 2.3vw;
+}
+
+.gap-\[3vw\] {
+  gap: 3vw;
+}
+
+.gap-\[5vw\] {
+  gap: 5vw;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -567,12 +684,122 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.text-\[20vh\] {
-  font-size: 20vh;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.font-bold {
-  font-weight: 700;
+.p-\[\.2vw\] {
+  padding: .2vw;
+}
+
+.p-\[\.5vw\] {
+  padding: .5vw;
+}
+
+.p-\[1\.5vw\] {
+  padding: 1.5vw;
+}
+
+.p-\[5vw\] {
+  padding: 5vw;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-\[3vw\] {
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.px-\[4vw\] {
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+
+.px-\[6vw\] {
+  padding-left: 6vw;
+  padding-right: 6vw;
+}
+
+.pb-\[9vw\] {
+  padding-bottom: 9vw;
+}
+
+.pl-\[1vw\] {
+  padding-left: 1vw;
+}
+
+.pl-\[20vw\] {
+  padding-left: 20vw;
+}
+
+.pl-\[4vw\] {
+  padding-left: 4vw;
+}
+
+.pt-\[20vw\] {
+  padding-top: 20vw;
+}
+
+.pt-\[2vw\] {
+  padding-top: 2vw;
+}
+
+.pt-\[5vw\] {
+  padding-top: 5vw;
+}
+
+.font-anton {
+  font-family: Anton, sans-serif;
+}
+
+.font-inter {
+  font-family: Inter, sans-serif;
+}
+
+.text-\[\.7vw\] {
+  font-size: .7vw;
+}
+
+.text-\[12vw\] {
+  font-size: 12vw;
+}
+
+.text-\[18vw\] {
+  font-size: 18vw;
+}
+
+.text-\[1vw\] {
+  font-size: 1vw;
+}
+
+.text-\[3vw\] {
+  font-size: 3vw;
+}
+
+.text-\[5\.25vw\] {
+  font-size: 5.25vw;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.leading-\[1\.1\] {
+  line-height: 1.1;
+}
+
+.leading-\[2\] {
+  line-height: 2;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -580,14 +807,74 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
-.text-\[20\] {
-  color: 20;
-}
+@media (min-width: 768px) {
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
 
-.text-\[20v\] {
-  color: 20v;
+  .md\:block {
+    display: block;
+  }
+
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
+  }
+
+  .md\:w-\[13vw\] {
+    width: 13vw;
+  }
+
+  .md\:items-center {
+    align-items: center;
+  }
+
+  .md\:gap-\[\.2vw\] {
+    gap: .2vw;
+  }
+
+  .md\:gap-\[\.3vw\] {
+    gap: .3vw;
+  }
+
+  .md\:px-\[3vw\] {
+    padding-left: 3vw;
+    padding-right: 3vw;
+  }
+
+  .md\:py-\[2vw\] {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+  }
+
+  .md\:pl-\[4vw\] {
+    padding-left: 4vw;
+  }
+
+  .md\:pr-\[6vw\] {
+    padding-right: 6vw;
+  }
+
+  .md\:pt-\[2vw\] {
+    padding-top: 2vw;
+  }
+
+  .md\:text-\[\.8vw\] {
+    font-size: .8vw;
+  }
+
+  .md\:text-\[\.9vw\] {
+    font-size: .9vw;
+  }
+
+  .md\:text-\[4vw\] {
+    font-size: 4vw;
+  }
 }
