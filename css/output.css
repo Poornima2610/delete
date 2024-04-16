@@ -725,6 +725,16 @@ video {
   padding-right: 6vw;
 }
 
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
 .pb-\[9vw\] {
   padding-bottom: 9vw;
 }
@@ -785,6 +795,14 @@ video {
   font-size: 5.25vw;
 }
 
+.text-\[4vw\] {
+  font-size: 4vw;
+}
+
+.text-\[2vw\] {
+  font-size: 2vw;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -805,6 +823,14 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[vw\] {
+  color: vw;
 }
 
 .hover\:underline:hover {
